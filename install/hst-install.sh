@@ -105,7 +105,7 @@ check_wget_curl() {
 				exit 1
 			fi
 		else
-			wget -q https://raw.githubusercontent.com/hestiacp/hestiacp/release/install/hst-install-$type.sh -O hst-install-$type.sh
+			wget -q https://raw.githubusercontent.com/mediavista/hestiacp/main/install/hst-install-$type.sh -O hst-install-$type.sh
 			if [ "$?" -eq '0' ]; then
 				bash hst-install-$type.sh $*
 				exit
