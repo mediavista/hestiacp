@@ -39,7 +39,7 @@ multiphp_required=("7.3" "7.4" "8.0" "8.1" "8.2","8.3")
 # Default PHP version if none supplied
 fpm_v="8.2"
 # MariaDB version
-mariadb_v="10.11"
+mariadb_v="10.6"
 
 # Defining software pack for all distros
 software="acl apache2 apache2-suexec-custom apache2-suexec-pristine apache2-utils awstats bc bind9 bsdmainutils bsdutils
